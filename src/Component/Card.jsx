@@ -20,9 +20,9 @@ const Card = (props) => {
                   <a href="">Epic Coders</a>
               </div>
               <div className='tech'>
-                  <button>UI</button>
-                  <button>UX</button>
-                  <button>Photoshop</button>
+                  <button>{props.tool}</button>
+                  <button>{props.tools}</button>
+                  <button>{props.more}</button>
               </div>
               <div className='experience'>
                   <div className='view'>
